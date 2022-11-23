@@ -1,0 +1,11 @@
+500 -internat server error meant that there was  a typo in there or an error
+    To fix this i went into the controller and checked for typos and found that toy was being called as Toys.update
+
+
+404- means that the route was not found
+
+  To fix this i went into the config > routes and added a new destroy route in the resources
+
+Unexcpected  end of json means that there is no json data being taken from the backend but there is some json data being displayed at the frontend
+
+  I went into the controllers and I rendered some json data of status ok when the thing was updated.
